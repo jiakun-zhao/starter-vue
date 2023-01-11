@@ -1,0 +1,40 @@
+{
+    "name": "pkg-name",
+    "version": "0.0.0",
+    "private": "true",
+    "description": "",
+    "homepage": "https://github.com/unnb/pkg-name#readme",
+    "bugs": {
+        "url": "https://github.com/unnb/pkg-name/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/unnb/pkg-name.git"
+    },
+    "license": "MIT",
+    "author": "Wythe <seclusion.life@outlook.com>",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "run-p type-check build-only",
+        "preview": "vite preview",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --noEmit"
+    },
+    "eslintConfig": {
+        "extends": "@unnb"
+    },
+    "dependencies": {
+        "vue": "^3.2.45"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.12",
+        "@unnb/eslint-config": "^0.1.2",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "eslint": "^8.31.0",
+        "npm-run-all": "^4.1.5",
+        "typescript": "~4.7.4",
+        "vite": "^4.0.0",
+        "vue-tsc": "^1.0.12"
+    }
+}
