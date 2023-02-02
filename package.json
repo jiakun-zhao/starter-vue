@@ -3,16 +3,16 @@
     "version": "0.0.0",
     "private": "true",
     "description": "",
-    "homepage": "https://github.com/zhaojiakuncn/pkg-name#readme",
+    "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
     "bugs": {
-        "url": "https://github.com/zhaojiakuncn/pkg-name/issues"
+        "url": "https://github.com/jiakun-zhao/pkg-name/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhaojiakuncn/pkg-name.git"
+        "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
     },
     "license": "MIT",
-    "author": "Jiakun Zhao <zhaojiakun.cn@icloud.com>",
+    "author": "Jiakun Zhao <jiakun.zhao@icloud.com>",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -22,15 +22,15 @@
         "type-check": "vue-tsc --noEmit"
     },
     "eslintConfig": {
-        "extends": "@zhaojiakuncn"
+        "extends": "@jiakun-zhao"
     },
     "dependencies": {
-        "vue": "^3.2.45"
+        "vue": "^3.2.46"
     },
     "devDependencies": {
+        "@jiakun-zhao/eslint-config": "^0.1.2",
         "@types/node": "^18.11.18",
         "@vitejs/plugin-vue": "^4.0.0",
-        "@zhaojiakuncn/eslint-config": "^0.1.2",
         "eslint": "^8.33.0",
         "npm-run-all": "^4.1.5",
         "typescript": "~4.7.4",
