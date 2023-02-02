@@ -28,7 +28,7 @@
         "vue": "^3.2.46"
     },
     "devDependencies": {
-        "@jiakun-zhao/eslint-config": "^0.1.2",
+        "@jiakun-zhao/eslint-config": "^0.0.2",
         "@types/node": "^18.11.18",
         "@vitejs/plugin-vue": "^4.0.0",
         "eslint": "^8.33.0",
