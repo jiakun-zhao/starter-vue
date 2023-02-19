@@ -3,7 +3,7 @@ import { RouterView, createRouter, createWebHistory } from 'vue-router'
 
 import routes from '~pages'
 
-import '~/assets/index.scss'
+import '~/assets/index.css'
 import 'uno.css'
 
 const app = createApp(RouterView)
