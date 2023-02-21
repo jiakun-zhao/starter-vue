@@ -24,13 +24,15 @@
     },
     "dependencies": {
         "vue": "^3.2.47",
-        "vue-router": "^4.1.6"
+        "vue-router": "^4.1.6",
+        "nprogress": "^0.2.0"
     },
     "devDependencies": {
         "@iconify-json/ph": "^1.1.4",
         "@jiakun-zhao/eslint-config": "^0.0.4",
         "@types/html-minifier": "^4.0.2",
         "@types/node": "^18.14.0",
+        "@types/nprogress": "^0.2.0",
         "@vitejs/plugin-vue": "^4.0.0",
         "autoprefixer": "^10.4.13",
         "cssnano": "^5.1.15",
