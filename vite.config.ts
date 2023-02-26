@@ -2,21 +2,30 @@ import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
 import Vue from '@vitejs/plugin-vue'
-import Pages from 'vite-plugin-pages'
 import UnoCSS from 'unocss/vite'
-import { UnoConfig, VitePlugins } from './use'
+import { presetAttributify, presetIcons, presetUno } from 'unocss'
 
 export default defineConfig({
-    plugins: [
-        Vue(),
-        Pages({ dirs: [{ dir: 'src/pages', baseRoute: '' }] }),
-        VitePlugins(),
-        UnoCSS(UnoConfig),
-    ],
     resolve: {
         alias: { '~': fileURLToPath(new URL('./src', import.meta.url)) },
     },
     server: {
         host: true,
     },
+    plugins: [
+        Vue(),
+        UnoCSS({
+            presets: [
+                presetUno({
+                    dark: 'media',
+                    preflight: false,
+                }),
+                presetAttributify(),
+                presetIcons({
+                    scale: 1.2,
+                    extraProperties: { 'display': 'inline-block', 'vertical-align': 'bottom' },
+                }),
+            ],
+        }),
+    ],
 })
