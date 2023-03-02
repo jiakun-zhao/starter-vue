@@ -2,9 +2,9 @@ import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
 import Vue from '@vitejs/plugin-vue'
+import JsDelivr from 'vite-plugin-jsdelivr'
 import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
-import JsDelivr from 'vite-plugin-jsdelivr'
 
 export default defineConfig({
     resolve: {
