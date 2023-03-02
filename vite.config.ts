@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
+import JsDelivr from 'vite-plugin-jsdelivr'
 
 export default defineConfig({
     resolve: {
@@ -14,6 +15,7 @@ export default defineConfig({
     },
     plugins: [
         Vue(),
+        JsDelivr(),
         UnoCSS({
             presets: [
                 presetUno({
