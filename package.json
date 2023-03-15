@@ -28,9 +28,9 @@
     "devDependencies": {
         "@iconify-json/ph": "^1.1.5",
         "@jiakun-zhao/eslint-config": "^0.0.4",
-        "@types/node": "^18.14.6",
+        "@types/node": "^18.15.3",
         "@vitejs/plugin-vue": "^4.0.0",
-        "eslint": "^8.35.0",
+        "eslint": "^8.36.0",
         "typescript": "~4.9.5",
         "unocss": "^0.50.4",
         "vite": "^4.1.4",
