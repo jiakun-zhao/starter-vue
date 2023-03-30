@@ -12,4 +12,9 @@ export default defineConfig({
             extraProperties: { 'display': 'inline-block', 'vertical-align': 'bottom' },
         }),
     ],
+    theme: {
+        colors: {
+            primary: '#767676',
+        },
+    },
 })
