@@ -1,18 +1,5 @@
 {
-    "name": "pkg-name",
-    "version": "0.0.0",
     "private": true,
-    "description": "",
-    "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
-    "bugs": {
-        "url": "https://github.com/jiakun-zhao/pkg-name/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
-    },
-    "license": "MIT",
-    "author": "Jiakun Zhao <jiakun.zhao@outlook.com>",
     "type": "module",
     "scripts": {
         "build": "vue-tsc --noEmit && vite build",
@@ -28,13 +15,12 @@
     "devDependencies": {
         "@iconify-json/ph": "^1.1.5",
         "@jiakun-zhao/eslint-config": "^0.0.5",
-        "@types/node": "^18.15.11",
+        "@types/node": "^18.15.13",
         "@vitejs/plugin-vue": "^4.1.0",
-        "eslint": "^8.37.0",
-        "typescript": "~5.0.2",
-        "unocss": "^0.50.6",
-        "vite": "^4.2.1",
-        "vite-plugin-jsdelivr": "^0.0.4",
-        "vue-tsc": "^1.2.0"
+        "eslint": "^8.39.0",
+        "typescript": "~5.0.4",
+        "unocss": "^0.51.6",
+        "vite": "^4.3.1",
+        "vue-tsc": "^1.4.3"
     }
 }
